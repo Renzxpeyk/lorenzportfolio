@@ -1,0 +1,38 @@
+.sidebar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+    background-color: #A59D84;
+    width: 60px;
+    z-index: 200;
+    padding-top: 5px;
+}
+
+.sidebar-link {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.sidebar-link:hover {
+    background-color: lightgrey;
+}
+
+.sidebar-link img {
+    height: 30px;
+    margin-bottom: 4px;
+    border-radius: 15px;
+
+}
+
+.sidebar-link div {
+    font-family: SF Pro Display;
+    font-size: 14px;
+    color: black;
+
+    
+}

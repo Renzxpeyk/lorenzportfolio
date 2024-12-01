@@ -1,0 +1,105 @@
+.header {
+    height: 60px;
+    background-color: #A59D84;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.left-section {
+
+    display: flex;
+    align-items: center;
+}
+
+.main-name {
+    font-family: SF Pro Display;
+    margin-left: 46px;
+    font-size: 23px;
+    margin-bottom: 20px;
+    color: #243642;
+
+}
+
+.hamburger-menu {
+    height: 30px;
+    margin-left: 15px;
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+
+.middle-section {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 500;
+}
+
+.home {
+    border: none;
+    border-radius: 10px;
+    flex: 1;
+    height: 40px;
+    font-family: SF Pro Display;
+    font-size: 20px;
+    flex-direction: row;
+    width: 0;
+    cursor: pointer;
+
+}
+
+.button-home {
+    margin-left: 5px;
+    border-radius: 20px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+.middle-home {
+    height: 30px;
+    border-radius: 500px;
+}
+.right-section {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    width: 200px;
+    flex-shrink: 0;
+    justify-content: space-between;
+    
+}
+
+.right-section img {
+    border-radius:20px;
+}
+
+.right-fb {
+    width: 40px;
+    height: 34px;
+    margin-left: 35px;
+    cursor: pointer;
+}
+
+.right-ig {
+    width: 40px;
+    height: 34px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.right-twitter {
+    width: 36px;
+    height: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+
+}

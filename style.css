@@ -1,0 +1,28 @@
+.main {
+    display: inline-block;
+    width: 400px;
+    height: 500px;
+    border-radius: 100px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.main-image {
+    display: flex;
+    gap: 50px;
+}
+
+.main-intro {
+    font-family: SF Pro Display;
+    margin-right: 400px;
+    margin-top: 120px;
+    color: #243642;
+}
+
+.main-paragraph {
+    font-family: SF Pro Display;
+    margin-right: 400px;
+    color: black;
+
+
+}
